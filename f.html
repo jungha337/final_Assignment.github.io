@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-feature Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="login-container">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Enter your name">
+        <button id="login-button">Login</button>
+    </div>
+
+    <div id="app-container" class="hidden">
+        <header>
+            <h1>Welcome, <span id="greeting"></span>!</h1>
+            <div id="clock"></div>
+        </header>
+
+        <section id="todo-section">
+            <h2>To-Do List</h2>
+            <input type="text" id="todo-input" placeholder="Add a new task">
+            <button id="add-todo">Add</button>
+            <ul id="todo-list"></ul>
+        </section>
+
+        <section id="weather-section">
+            <h2>Weather</h2>
+            <p id="weather"></p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
