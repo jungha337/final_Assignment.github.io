@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transition: background 1s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+#login-container,
+#app-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#clock {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+#todo-section,
+#weather-section {
+    margin-top: 20px;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
